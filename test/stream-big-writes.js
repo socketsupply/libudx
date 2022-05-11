@@ -1,4 +1,4 @@
-const test = require('brittle')
+const test = require('tape')
 const isCI = require('is-ci')
 const { makeTwoStreams } = require('./helpers')
 

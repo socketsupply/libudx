@@ -1,4 +1,4 @@
-const test = require('brittle')
+const test = require('tape')
 const { makePairs, pipeStreamPairs } = require('./helpers')
 
 test('16 parallel streams on 1 socket', function (t) {

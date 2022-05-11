@@ -1,4 +1,4 @@
-const test = require('brittle')
+const test = require('tape')
 const UDX = require('../')
 
 test('can bind and close', async function (t) {

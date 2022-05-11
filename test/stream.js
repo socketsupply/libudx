@@ -1,4 +1,4 @@
-const test = require('brittle')
+const test = require('tape')
 const proxy = require('./helpers/proxy')
 const UDX = require('../')
 const { makeTwoStreams } = require('./helpers')
