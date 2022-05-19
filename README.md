@@ -2,13 +2,15 @@
 
 A compatibility module for using libudx with the [Socket SDK][0].
 
-# description
+# Description
 
-The JavaScript in libudx assumes NAPI bindings. This
-requires significant tooling to target other platforms. In
-some cases like React Native, it's easier for the developer
-to generate bindings from NAPI, but this just pushes the
-complexity and maintainence to a 3rd party.
+The JavaScript in libudx assumes NAPI bindings. While async, they "block"
+JavaScript run-to-completion semantics. This presents a problem for using
+libux with a Webview, which only provides a single, simple asynchronous api.
+
+A simple solution, without involving complex tool chains, is to intercept
+synchronous XHR calls. No actual network i/o is performed, sync instead XHRs
+become IPC calls.
 
 # license
 
