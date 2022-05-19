@@ -1,6 +1,6 @@
 # libudx
 
-A compatibility module for using libudx with the Socket SDK.
+A compatibility module for using libudx with the [Socket SDK][0].
 
 # description
 
@@ -13,3 +13,5 @@ complexity and maintainence to a 3rd party.
 # license
 
 MIT
+
+[0]:https://github.com/socketsupply/socket-sdk
