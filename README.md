@@ -1,6 +1,6 @@
 # libudx
 
-A compatibility module for libudx on Operator Framework.
+A compatibility module for using libudx with the Socket SDK.
 
 # description
 
