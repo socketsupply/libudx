@@ -1,5 +1,5 @@
 {
-  "name": "udx-native",
+  "name": "@socketsupply/libudx",
   "version": "0.0.12",
   "description": "udx is reliable, multiplex, and congestion controlled streams over udp",
   "main": "lib/udx.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mafintosh/libudx.git"
+    "url": "git+https://github.com/socketsupply/libudx.git"
   },
   "keywords": [
     "tcp",
@@ -24,9 +24,9 @@
   "license": "MIT",
   "gypfile": true,
   "bugs": {
-    "url": "https://github.com/mafintosh/libudx/issues"
+    "url": "https://github.com/socketsupply/libudx/issues"
   },
-  "homepage": "https://github.com/mafintosh/libudx#readme",
+  "homepage": "https://github.com/socketsupply/libudx#readme",
   "dependencies": {
     "b4a": "^1.5.0",
     "napi-macros": "^2.0.0",
